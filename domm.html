@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="domcs.css">
+
+</head>
+
+<body>
+    <section>
+        <h1>carte shopping</h1>
+    </section>
+    <section>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">product</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">price</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">suprimer</th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill"
+                                viewBox="0 0 16 16" id="heart">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                            </svg>
+                        </div>
+                    </th>
+                    <td>
+                        <div>
+                            <img src="pcc.jpg" width=80 height=80 alt="">
+                        </div>
+                    </td>
+                    <td>product1</td>
+                    <td>
+                        <div>
+                            <button type="button" class="btn btn-danger" id="btnplus">+</button>
+                            <input type="text" size="4" value="0" class="input"
+                            >
+                            <button type="button" class="btn btn-danger" id="btnmoins" width=3 heigth=3>-</button>
+
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" size=80 value=80 class="price">
+                    </td>
+                    <td>
+                        <p><span>0$</span></p>
+                    </td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash"
+                            viewBox="0 0 16 16" id="trash">
+                            <path
+                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                            <path fill-rule="evenodd"
+                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <div class="coeur">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill"
+                                viewBox="0 0 16 16" id="heart">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                            </svg>
+                        </div>
+                    </th>
+                    <td>
+                        <div>
+                            <img src="phone.png" width=80 height=80 alt="">
+
+
+                        </div>
+                    </td>
+                    <td>product2</td>
+                    <td>
+                        <div>
+                            <button type="button" class="btn btn-danger" id="btnplus">+</button>
+                            <input type="text" size="4" value="0" class="input">
+                            <button type="button" class="btn btn-danger" id="btnmoins" width=3 heigth=3>-</button>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" size=80 value=80 class="price">
+                    </td>
+                    <td>
+                        <p><span>0$</span></p>
+                    </td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash"
+                            viewBox="0 0 16 16" id="trash">
+                            <path
+                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                            <path fill-rule="evenodd"
+                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <div class= "coeur">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill"
+                                viewBox="0 0 16 16" id="heart">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                            </svg>
+                        </div>
+                    </th>
+                    <td>
+                        <div>
+                            <img src="calcu.jpg" width=80 height=80 alt="">
+
+                        </div>
+                    </td>
+                    <td>product3
+                    <td>
+                        <div>
+                            <button type="button" class="btn btn-danger" id="btnplus">+</button>
+                            <input type="text" size="4" value="0" class="input">
+                            <button type="button" class="btn btn-danger" id="btnmoins" width=3 heigth=3>-</button>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" size=80 value=80 class="price">
+                    </td>
+                    <td>
+                        <p><span>0$</span></p>
+                    </td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash"
+                            viewBox="0 0 16 16" id="trash">
+                            <path
+                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                            <path fill-rule="evenodd"
+                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                        </svg>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <h2 class="tot">total:<span id="totale">0$</span></h2>
+        </div>
+    </section>
+    <script src="domjs.js"></script>
+    
+</body>
+</html>
